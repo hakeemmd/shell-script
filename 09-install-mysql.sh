@@ -4,6 +4,7 @@
 if [ $ID -ne 0 ]
 then
     echo "ERROR:: Please run this script with root access"
+    exit 2
 else
      echo "your root user"
 fi
