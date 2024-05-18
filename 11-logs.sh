@@ -38,6 +38,4 @@ fi
     yum install maven -y &>> $LOGFILE
 
     VALIDATE $? "Installing mvn"
-    yum remove maven -y &>> $LOGFILE
-
-    VALIDATE $? "Uninstalling mvn"
+   
