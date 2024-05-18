@@ -8,7 +8,7 @@ then
 else
      echo "your root user"
 fi
-yum install mysql -y
+yum install mysqllll -y
 
 if [ $? -ne 0 ]
 then
@@ -16,5 +16,5 @@ then
  exit 1
  else 
  echo " Installed Mysql is success"
- 
+
  fi
