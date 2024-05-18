@@ -5,10 +5,10 @@ ID=$(id -u)
 
     if [ $1 -ne 0 ]
 then
-    echo "ERROR :: $2 .... is faild"
+    echo "ERROR :: $2 ..is faild"
     exit 1
  else 
-    echo " $2 .......is success"
+    echo " $2 ..is success"
 
  fi
 }
@@ -25,3 +25,7 @@ fi
     yum install mysql -y
 
     VALIDATE $? "installing Mysql"
+
+    yum install maven -y
+
+    VALIDATE $? "Installing mvn"
