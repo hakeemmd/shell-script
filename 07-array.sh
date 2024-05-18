@@ -2,6 +2,6 @@
 
 FRUITS=("apple","mango","banana")
 
-echo "first fruit::${FRUITS[0]}"
-echo "second fruit ::${FRUITS[1]}"
-echo "thard fruit ::${FRUITS[2]}"
+echo "first fruit:: ${FRUITS[0]}"
+echo "second fruit:: ${FRUITS[1]}"
+echo "thard fruit:: ${FRUITS[2]}"
