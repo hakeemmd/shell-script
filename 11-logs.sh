@@ -23,12 +23,12 @@ then
 }
 if [ $ID -ne 0 ]
 then
-    echo "ERROR:: Please run this script with root access"
+    echo -e "$R ERROR:: Please run this script with root access"
     exit 2
 else
      echo "your root user"
 fi
-    yum install git -y &>> $LOGFILE
+    yum install gitT -y &>> $LOGFILE
 
     VALIDATE $? "installing Git"
     yum install mysql -y &>> $LOGFILE
