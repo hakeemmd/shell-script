@@ -29,3 +29,6 @@ fi
     yum install maven -y
 
     VALIDATE $? "Installing mvn"
+    yum uninstall maven -y
+
+    VALIDATE $? "Uninstalling mvn"
